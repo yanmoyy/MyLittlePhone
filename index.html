@@ -12,7 +12,7 @@
   <div class="iphone-x">
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>19:34</span>
+        <span id ="clock">19:34</span>
       </div>
       <i class="speaker"></i>
       <i class="camera"></i>
@@ -22,15 +22,16 @@
         <i class="fa-solid fa-battery-full"></i>
       </div>
     </div>
-    <div class="to-do-list">
-      <div class="to-do-list__date">FRIDAY, NOV 11</div>
-      <button class="to-do-list__clear" value="click">Clear</button>
-      <ol>
-        <li><textarea class="to-do" spellcheck="false"></textarea></li>
-        <li><textarea class="to-do" spellcheck="false"></textarea></li>
-        <li><textarea class="to-do" spellcheck="false"></textarea></li>
-      </ol>
-      <div class="to-do-list__name">To-Do-List</div>
+    <div class="todo-list">
+      <div id="todo-list__date">FRIDAY, NOV 11</div>
+      <button id="todo-list__clear" value="click">Clear</button>
+      <div class="todo-list__container">
+        <ol id = "todo-list"></ol>
+      </div>
+      <form id="todo-list__form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+      </form>
+      <div class="todo-list__name">Todo-List</div>
     </div>
     <div class="icon-row dock-bar">
       <div class="icon-row__icon">
@@ -48,6 +49,7 @@
     </div>
   </div>
   <script src="https://kit.fontawesome.com/7be3cdc406.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="script/index.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/clock.js"></script>
 </body>
 </html>

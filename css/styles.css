@@ -5,7 +5,7 @@
 /*Components*/
 @import "components/status-bar.css";
 @import "components/icon-row.css";
-@import "components/to-do-list.css";
+@import "components/todo-list.css";
 
 @font-face {
   font-family: "hanna";
