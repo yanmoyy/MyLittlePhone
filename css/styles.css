@@ -7,6 +7,9 @@
 @import "components/icon-row.css";
 @import "components/to-do-list.css";
 
+/*Ebook*/
+@import "ebookApp.css";
+
 @font-face {
   font-family: "hanna";
   src: url("../fonts/BMHANNAPro.ttf");

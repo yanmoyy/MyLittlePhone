@@ -1,0 +1,84 @@
+/*ebook-reder의 화면*/
+.ebook-reder {
+  position: relative;
+  margin: 40px auto;
+  width: 400px;
+  height: 780px;
+  background-color: var(--lightBrown);
+  /*background-image: linear-gradient(60deg, var(--blue) 1%, var(--skyblue)100%);*/
+  border-radius: 40px;
+  box-shadow: 0px 0px 0px 11px var(--black3), 0px 0px 0px 13px var(--black2), 0px 0px 0px 20px var(--black1);
+}
+.ebook-reder:before,
+.ebook-reder:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ebook-reder:after {
+  bottom: 7px;
+  width: 140px;
+  height: 4px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+.ebook-reder:before {
+  top: 0px;
+  width: 56%;
+  height: 30px;
+  background-color: var(--black3);
+  border-radius: 0px 0px 40px 40px;
+}
+
+
+.book-list{
+  position: absolute;
+  margin: 8px 25px;
+  /*box-sizing: border-box;*/
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  border-radius: 30px;
+  /*background-color: var(--transparent-black);*/
+  color: var(--brown);
+}
+
+.book-list input[type='radio'] {
+  accent-color: var(--brown);
+  width: 16px;
+  height: 16px;
+}
+/*Button*/
+/*
+.list-button{
+  background-color: var(--brown);
+  border: 2xp solid var(--borwn);
+  border-radius: 5xp;
+  color: var(--white);
+}
+
+.ebook-reder button:hover {
+  background-color: var(--transparent-black);
+}
+.ebook-reder button:active {
+  border-color: transparent;
+  color: transparent;
+}
+*/
+/*Text*/
+.ebook-text {
+  position: absolute;
+  margin: 10xp, 10xp;
+  width: 80%;
+  height: 80%;
+  left: 50%;
+  bottom: 5%;
+  padding: 15px;
+  transform: translateX(-50%);
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: var(--brown);
+  color: var(--white);
+}
