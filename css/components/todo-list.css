@@ -1,5 +1,5 @@
 .todo-list {
-  position: absolute;
+  position: relative;
   margin: 20px 0px;
   box-sizing: border-box;
   width: 90%;
@@ -56,13 +56,14 @@
   left: 30px;
 }
 .todo-list ol li {
+  position: relative;
   margin: 20px;
   counter-increment: item;
 }
 .todo-list ol li:before {
   content:counter(item);
   position : absolute;
-  left: -10px;
+  left: -30px;
 }
 .todo-list ol li > span {
   display: inline-block;
