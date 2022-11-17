@@ -1,6 +1,5 @@
-
 const toDoForm = document.getElementById("todo-list__form");
-const toDoInput = toDoForm.querySelector("input")
+const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.getElementById("todo-list");
 const toDoClear = document.getElementById("todo-list__clear");
 const TODOS_KEY = "todos";
@@ -31,11 +30,17 @@ function paintToDo(newToDoObj) {
   li.appendChild(span);
   li.appendChild(button);
   toDoList.appendChild(li);
+  li.style.opacity ="1";
 }
+
 function handleToDoSubmit(event) {
   event.preventDefault();
   const newToDo = toDoInput.value;
   toDoInput.value = "";
+  if (toDos.length >= 10){
+    alert('Too Many ToDo!','Remove ToDo or clear the list\n(MAX = 10)');
+    return;
+  }
   const newToDoObj = {
     text : newToDo,
     id : Date.now()

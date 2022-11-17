@@ -56,8 +56,10 @@
   left: 30px;
 }
 .todo-list ol li {
+  opacity: 0;
   position: relative;
   margin: 20px;
+  transition: all 2s;
   counter-increment: item;
 }
 .todo-list ol li:before {
