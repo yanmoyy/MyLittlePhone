@@ -4,15 +4,12 @@
   width: 90%;
   height: 12%;
   padding: 5px;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   border-radius: 30px;
   left: 50%;
   transform: translateX(-50%);
-}
-.icon-row {
-  display: flex;
-  justify-content: space-between;
 }
 .icon-row__icon {
   display: flex;
@@ -23,9 +20,9 @@
   width: 5rem;
 }
 .icon-row__icon span {
-  margin-top: 15px;
+  font-size: 0.8em;
+  font-weight: 100;
 }
-
 .dock-bar {
   position: absolute;
   bottom: 10px;

@@ -1,6 +1,6 @@
 .todo-list {
   position: relative;
-  margin: 20px 0px;
+  margin: 20px 0px 40px 0px;
   box-sizing: border-box;
   width: 90%;
   height: 40%;
@@ -12,7 +12,7 @@
   background-color: var(--transparent-black);
   color: var(--white);
 }
-#todo-list__date {
+.todo-list__date {
   display: inline-flex;
   width: 50%;
   margin: 5px;
@@ -59,6 +59,7 @@
   position: relative;
   margin: 20px;
   counter-increment: item;
+  animation : swing 0.5s cubic-bezier(.36,-0.64,.34,1.76) 1;
 }
 .todo-list ol li:before {
   content:counter(item);
