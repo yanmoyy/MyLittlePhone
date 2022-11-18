@@ -1,0 +1,9 @@
+.main-screen {
+  position : absolute;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background-image: linear-gradient(60deg, var(--purpleBlue) 1%, var(--skyblue)100%);
+  display: none;
+}

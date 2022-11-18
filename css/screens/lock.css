@@ -1,0 +1,31 @@
+.lock-screen {
+  position : relative;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background-image: url("../../image/lock-screen.jpg");
+  background-size: cover;
+  animation : fadeIn 1s linear 1;
+  z-index: 1;
+}
+.lock-screen__date {
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lock-screen span {
+  display: block;
+  margin: 10px;
+}
+.lock-screen #date {
+  color: var(--lightGray);
+  font-size: 1.5em;
+}
+.lock-screen #clock {
+  display: block;
+  color: var(--white);
+  font-size: 6em;
+}
