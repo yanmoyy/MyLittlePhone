@@ -1,5 +1,7 @@
 @import "reset.css";
 @import "variables.css";
+@import "animation.css";
+
 @import "iphone.css";
 
 /*Components*/
@@ -8,16 +10,22 @@
 @import "components/todo-list.css";
 @import "components/alert.css";
 
+/*Screens*/
+@import "screens/main.css";
+@import "screens/lock.css";
+
 /*Ebook*/
 @import "ebookApp.css";
 
+/*font*/
 @font-face {
   font-family: "hanna";
   src: url("../fonts/BMHANNAPro.ttf");
 }
 
 body {
-  /* background: var(--white);
-  color: var(--black); */
-  font-family: "hanna";
+  background: var(--white);
+  color: var(--white);
+  font-family: "apple-system";
+  font-weight: bold;
 }

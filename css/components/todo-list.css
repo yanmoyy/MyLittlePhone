@@ -12,7 +12,7 @@
   background-color: var(--transparent-black);
   color: var(--white);
 }
-#todo-list__date {
+.todo-list__date {
   display: inline-flex;
   width: 50%;
   margin: 5px;
@@ -56,11 +56,10 @@
   left: 30px;
 }
 .todo-list ol li {
-  opacity: 0;
   position: relative;
   margin: 20px;
-  transition: all 2s;
   counter-increment: item;
+  animation : swing 0.5s cubic-bezier(.36,-0.64,.34,1.76) 1;
 }
 .todo-list ol li:before {
   content:counter(item);
