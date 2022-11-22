@@ -17,6 +17,9 @@
 /*Ebook*/
 @import "ebookApp.css";
 
+/*canvas*/
+@import "editorApp.css";
+
 /*font*/
 @font-face {
   font-family: "hanna";

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Editor</title>
+</head>
+<body>
+  <div class="iphone-x">
+    <div class="editor-app">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span id="clock">19:34</span>
+        </div>
+        <i class="speaker"></i>
+        <i class="camera"></i>
+        <div class="status-bar__column">
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="editor-menu">
+        <button id="btn-bold">
+          <b>B</b>
+      </button>
+      <button id="btn-underline">
+          <u>U</u>
+      </button>
+      <button id="btn-strike">
+          <s>S</s>
+      </button>
+      &nbsp;&nbsp&nbsp<a href="index.html"><input type="button" value="Back"></a>
+      </div>
+      <div class="editor-text" contenteditable="true" spellcheck="false">
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/7be3cdc406.js" crossorigin="anonymous"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/ebookList.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>

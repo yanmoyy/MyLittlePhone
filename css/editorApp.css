@@ -1,0 +1,27 @@
+/*canvas-app의 화면*/
+.editor-app {
+  width: inherit;
+  height: inherit;
+  background-color: var(--darkblue);
+  border-radius: inherit;
+}
+
+.editor-menu {
+  transform: translateX(10%);
+}
+.editor-text {
+  position: absolute;
+  margin: 10xp, 10xp;
+  width: 80%;
+  height: 80%;
+  left: 50%;
+  bottom: 5%;
+  padding: 15px;
+  transform: translateX(-50%);
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: var(--white);
+  color: var(--black1);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
