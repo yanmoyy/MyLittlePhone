@@ -12,6 +12,7 @@
   transform: translateX(-50%);
 }
 .icon-row__icon {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
