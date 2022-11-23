@@ -54,3 +54,12 @@
     height: 100%;
   }
 }
+
+@keyframes clicked {
+  0%{
+    filter: brightness(150%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
+}
