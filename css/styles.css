@@ -9,10 +9,12 @@
 @import "components/icon-row.css";
 @import "components/todo-list.css";
 @import "components/alert.css";
+@import "components/phone-button.css";
 
 /*Screens*/
 @import "screens/main.css";
 @import "screens/lock.css";
+@import "screens/phone.css";
 
 /*Ebook*/
 @import "ebookApp.css";
