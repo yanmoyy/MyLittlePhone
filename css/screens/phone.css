@@ -1,0 +1,18 @@
+.phone-screen {
+  position : absolute;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background-color: var(-black1);
+}
+.call-screen {
+  position : relative;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  display: none;
+  background-image: url('../../image/call-background.jpg');
+  background-size:cover;
+}
