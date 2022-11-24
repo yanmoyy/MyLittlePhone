@@ -1,0 +1,31 @@
+.intro {
+    width: inherit;
+    height: inherit;
+    background-color: var(--gray);
+    border-radius: inherit;
+  }
+.intro-text{
+  position: absolute;
+  margin: 10xp, 10xp;
+  width: 80%;
+  height: 80%;
+  left: 50%;
+  bottom: 5%;
+  padding: 15px;
+  transform: translateX(-50%);
+  font-size: 15px;
+  color: var(--white);
+  text-align: center;
+}
+.intro-title{
+    font-size: 30px;
+    font-style: bold;
+}
+.intro-button{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    left: 40%;
+    bottom: 15%;
+}
+  
