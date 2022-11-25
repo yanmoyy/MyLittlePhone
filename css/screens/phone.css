@@ -57,11 +57,3 @@
   font-size: 1.1em;
 }
 
-.call-button__exit__container {
-position: absolute;
-
-}
-
-.call-button__exit {
-  background-color: var(--red);
-}
