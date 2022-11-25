@@ -2,6 +2,8 @@
   --lightBrown: rgba(222, 184, 135, 1);
   --lightGray: rgba(200, 200, 200, 1);
   --gray: rgba(88, 89, 95, 1);
+  --lightGreen: rgba(76,218,100,1);
+  --red: rgba(255,59,47,1);
   --yellow: rgba(250, 225, 0, 1);
   --brown: rgba(61, 31, 31, 1);
   --black1: rgba(17, 17, 17, 1);
@@ -13,6 +15,7 @@
   --skyblue: rgba(161, 217, 214, 1);
   --darkblue: rgba(45, 77, 118, 1);
   --transparent-black: rgba(0, 0, 0, 0.5);
+  --transparent-gray: rgba(88, 89, 95, 0.5);
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --z-phone: 2;
   --z-alert: 1;
