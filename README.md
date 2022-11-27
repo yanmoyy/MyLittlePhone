@@ -20,8 +20,7 @@ HTML + CSS + JAVASCRIPT를 활용하여 iPhone X의 디자인을 활용한 간�
 ### Screen Shots
 ---
 <p>
-<img width="150" alt="잠금화면" src="https://user-images.githubusercontent.com/67538999/204124235-941fa8e6-5378-4f8e-b18e-5aa28175ea0e.png"><img width="150" alt="메인화면" src="https://user-images.githubusercontent.com/67538999/204124234-107cfc68-5eba-408c-8a27-f3623123bd80.png"><img width="150" alt="AlertBox" src="https://user-images.githubusercontent.com/67538999/204124226-f87044c9-6b20-45a3-9573-58c8fb9344c9.png"><br>
-<img width="150" alt="texteditor" src="https://user-images.githubusercontent.com/67538999/204124233-306c45b0-170c-4c26-9d45-4d529d104863.png"><img width="150" alt="phone" src="https://user-images.githubusercontent.com/67538999/204124232-d9b3941e-d89d-4159-ac1a-9b72b684e5db.png"><img width="150" alt="eBookReader" src="https://user-images.githubusercontent.com/67538999/204124230-c4d50b69-bc5d-4451-8bb8-5f0348c70293.png">
+<img width="180" alt="잠금화면" src="https://user-images.githubusercontent.com/67538999/204124235-941fa8e6-5378-4f8e-b18e-5aa28175ea0e.png"><img width="180" alt="메인화면" src="https://user-images.githubusercontent.com/67538999/204124234-107cfc68-5eba-408c-8a27-f3623123bd80.png"><img width="180" alt="AlertBox" src="https://user-images.githubusercontent.com/67538999/204124226-f87044c9-6b20-45a3-9573-58c8fb9344c9.png"><img width="180" alt="texteditor" src="https://user-images.githubusercontent.com/67538999/204124233-306c45b0-170c-4c26-9d45-4d529d104863.png"><img width="180" alt="phone" src="https://user-images.githubusercontent.com/67538999/204124232-d9b3941e-d89d-4159-ac1a-9b72b684e5db.png"><img width="180" alt="eBookReader" src="https://user-images.githubusercontent.com/67538999/204124230-c4d50b69-bc5d-4451-8bb8-5f0348c70293.png">
 </p>
 <br>
 
