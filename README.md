@@ -20,12 +20,12 @@ HTML + CSS + JAVASCRIPT를 활용하여 iPhone X의 디자인을 활용한 간�
 ### Screen Shots
 ---
 
-<img width ="200" src ="image/forReadME/잠금화면.png">
-<img width ="200" src ="image/forReadME/메인화면.png">
-<img width ="200" src ="image/forReadME/alertBox.png">
-<img width ="200" src ="image/forReadME/eBookReader.png">
-<img width ="200" src ="image/forReadME/texteditor.png">
-<img width ="200" src ="image/forReadME/phone.png">
+<img width ="200" src ="./image/forReadME/잠금화면.png">
+<img width ="200" src ="./image/forReadME/메인화면.png">
+<img width ="200" src ="./image/forReadME/alertBox.png">
+<img width ="200" src ="./image/forReadME/eBookReader.png">
+<img width ="200" src ="./image/forReadME/texteditor.png">
+<img width ="200" src ="./image/forReadME/phone.png">
 
 
 <br>
