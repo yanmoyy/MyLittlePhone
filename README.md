@@ -5,7 +5,7 @@ HTML + CSS + JAVASCRIPT를 활용하여 iPhone X의 디자인을 활용한 간�
 
 ### Contributors
 [양현모 (jrsky723)](https://github.com/jrsky723) : 메인 화면, 잠금화면, ToDo-List, PhoneCall 화면 구현 <br>
-[장원덕 (kaeba0616)](https://github.com/kaeba0616) : 간단한 text Reader & Writer
+[장원덕 (kaeba0616)](https://github.com/wonduck-hub) : 간단한 text Reader & Writer
 
 ## Summary
 - 잠금 화면
