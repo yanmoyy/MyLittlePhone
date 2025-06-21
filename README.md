@@ -3,8 +3,10 @@
 Seoultech 웹프로그래밍 2022년도 2학기 프로젝트<br>
 HTML + CSS + JAVASCRIPT를 활용하여 iPhone X의 디자인을 활용한 간단한 웹페이지를 구성해본다. 
 
+web-page-link: https://yanmoyy.github.io/MyLittlePhone
+
 ### Contributors
-[양현모 (jrsky723)](https://github.com/jrsky723) : 메인 화면, 잠금화면, ToDo-List, PhoneCall 화면 구현 <br>
+[양현모 (yanmoyy)](https://github.com/yanmoyy) : 메인 화면, 잠금화면, ToDo-List, PhoneCall 화면 구현 <br>
 [장원덕 (wonduck-hub)](https://github.com/wonduck-hub) : 간단한 text Reader & Writer
 
 ## Summary
